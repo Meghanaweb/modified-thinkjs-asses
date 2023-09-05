@@ -88,12 +88,16 @@ h3 {
   flex-direction: column;
   text-align: center;
 }
+.footer p {
+  font-size: 13px;
+  text-align-last: center;
+}
 .footer ul li {
-  font-size: 10px;
+  font-size: 8px;
   list-style: none;
   display: inline-block;
   padding: 0px 2px;
-  margin: 0px 1px 0 1px;
+  margin-right: 20px;
 }
 
 @media screen and (min-width: 667px) and (max-width: 1920px) {
@@ -106,12 +110,12 @@ h3 {
   }
   .footer p {
     text-align: center;
-    margin: 10px 300px 10px 300px;
+    margin: 0px 290px 0px 290px;
   }
 
   .footer ul li {
-    padding: 0 10px;
-    font-size: 15px;
+    padding: 0px 25px 10px 5px;
+    text-align: center;
     color: rgb(38, 6, 105);
     font-weight: 900px;
   }
